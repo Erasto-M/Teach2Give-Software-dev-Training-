@@ -1,0 +1,12 @@
+.background-color{
+    background-color: #e6f08a;
+}
+.image-wrapper{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30%;
+    align-items: center;
+    justify-content: space-between;
+}
