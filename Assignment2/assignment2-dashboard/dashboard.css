@@ -91,7 +91,7 @@ ul{
     display: flex;
     flex-direction: column;
     height: 70vh;
-    width: 40vw;
+    width: 35vw;
     background-color: white;
     border-radius: 30px;
     margin-top: 10px;
@@ -120,4 +120,142 @@ ul{
 .account-cont {
     color: rgb(3, 109, 248);
     font-weight: 600;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.login-form input[type = 'email'], input[type='password']{
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(232, 234, 235);
+    border: none;
+    padding: 0 20px 0 20px ;
+    font-size: 20px;
+}
+.register-login{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 20px;
+}
+.register-login h4{
+    font-size: 18;
+    font-weight: 400;
+    text-align: center;
+}
+.login-button{
+    align-items: center;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 0 20px 0 20px ;
+    text-align: center;
+    color: white;
+    width: 20%;
+    height: 40px;
+    
+}
+.login-button h4 ,.shipping-button h4 {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.shipping-details{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border: 1px solid rgb(248, 245, 245);
+    margin-top: 80px;
+    padding: 20px 0 20px 300px ;
+    border-radius: 15px ;
+}
+.shipping-button{
+    align-items: center;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 0 20px 0 20px ;
+    text-align: center;
+    color: white;
+    width: 50%;
+    height: 40px; 
+}
+
+/* order summary container */
+.earphone{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(242, 242, 248);
+}
+.sony-headphones{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+.sony-headphones-currency-pounds{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+.sony-headphones-currency-pounds h5{
+    font-size: 25px;
+    font-weight: 100;
+    color: rgb(94, 93, 93);
+}
+.currency-pound{
+    display: flex;
+    flex-direction: row; 
+}
+.arithmetic-btn{
+    background-color: rgb(229, 250, 250);
+    text-align: center;
+    padding: 5px 20px 5px  20px ;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    align-items: center;
+}
+.add-and-subtract{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+/* Apply Discount container */
+.dicount-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+}
+.blank-container{
+    width: 70%;
+    height: 40px;
+    background-color: rgb(242, 242, 248);  
+}
+.apply-button{
+    width: 15%;
+    height: 40px;
+    border: 1px solid rgb(3, 109, 248);
+    border-radius: 10px;
+}
+.apply-button h5{
+    margin: auto;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(3, 109, 248);
+}
+.subtotal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
