@@ -92,7 +92,7 @@ ul{
     height: 75vh;
     width: 25vw;
     background-color: #f1f7fa;
-    border-radius: 15px;
+    border-radius: 5px;
     margin-top: 10px;
     margin-right: 50px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -103,13 +103,13 @@ ul{
     flex-direction: row;
     gap: 15px;
     align-items: center;
-    justify-content:center ;
+    justify-content:space-between ;
     font-size: 25px;
     
 }
 .trackLine{
     height: 2px;
-    width: 70px;
+    width: 100px;
     background-color: #007bff;
 }
 .account-shipping img{
@@ -154,8 +154,7 @@ ul{
     border: none;
     text-align: center;
     color: white;
-    width: 20%;
-    height: 40px;
+    height: 50px;
     font-size: 20px;
     font-weight: bold;
     
@@ -179,11 +178,10 @@ ul{
     align-items: center;
     background-color:#007bff;
     border-radius: 5px;
-    padding: 0 20px 0 20px ;
+    padding: 0 10px 0 10px ;
     text-align: center;
     color: white;
     border: none;
-    width: 50%;
     font-weight: bold;
     font-size: 20px;
     height: 50px; 
@@ -244,6 +242,7 @@ ul{
     flex-direction: row;
     gap: 20px;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 .dicount-container input[type = 'text']{
     width: 70%;

@@ -1,0 +1,139 @@
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+/* Header  styling  */
+header{
+    background-color: white;
+    padding: 20px 30px 20px 30px;
+    margin: 0;
+    height: 10vh;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+}
+.logo-img{
+    width: 100px;
+    height: 30px;
+    margin-right: 60px;
+}
+li{
+    list-style-type: none;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+.features{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.features img{
+    width: 14px;
+    height: 10px;
+    position: relative;
+    top: 6px;
+}
+.company{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.company img{
+    width: 14px;
+    height: 10px;
+    position: relative;
+    top: 6px;
+}
+/* Login - register part */
+.login-register{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 70px;
+}
+.register-btn{
+    background-color: white;
+    border:  1px solid rgb(117, 117, 117);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 18px;
+    height: 50px;
+    width: 130px;
+   font-size: 20px;
+}
+
+
+/* Main Content Styling */
+main{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+gap: 2%;
+}
+.left-container{
+ height: 80vh;
+ width: 40%;
+ border-radius: 20px;
+ background-color: white;
+ padding: 10px 0px 30px 250px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+}
+.left-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.left-container h1{
+    font-size: 65px;
+    font-weight: bold;
+}
+.left-container p{
+    font-size: 19px;
+      
+}
+.learn-more-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 30px 20px 30px;
+    border-radius: 15px;
+    width: 170px;
+}
+
+.right-container{
+height: 80vh;
+width: 50%;
+padding-right: 100px;
+background-color: white;
+border-radius: 20px;
+padding: 20px 0px  20px 200px;
+justify-content: center;
+align-items: center;
+}
+.right-container img{
+    height: 76vh;
+    width: 70%;
+    align-self: center;
+}
+.client-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.client-icons img{
+    width: 100px;
+    height: 20px;
+}
