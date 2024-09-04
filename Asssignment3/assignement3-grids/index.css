@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(245, 242, 240);
+
+}
+.main-content{
+    display: grid;
+    grid-template-columns:   70vw 22vw;
+    height: 90vh;
+    column-gap: 25px;
+    border-radius: 5px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.main-content  div{
+    border-radius: 5px;
+}
+.left-container{
+    display: grid;
+    row-gap: 20px;
+}
+.left-container-top{
+    display: grid;
+    grid-template-columns: 65% 34%;
+   
+    column-gap: 20px;
+    
+}
+.left-container-bottom{
+    display: grid;
+    grid-template-columns: 34%  65% ;
+    column-gap: 20px;
+    
+   
+}
+.left-container-bottom div , .left-container-top div {
+    border: 1px solid rgb(216, 215, 214);
+    border-radius: 5px;
+    color: white;
+}
+.daniel-cliff{
+    background-color: rgb(135, 4, 211);
+}
+.jonathan{
+    background-color: rgb(1, 56, 94);
+}
+.harmon{
+    background-color: rgb(247, 248, 248);
+}
+.patrick{
+    background-color: rgb(8, 8, 8);
+}
