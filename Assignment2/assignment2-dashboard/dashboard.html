@@ -9,32 +9,34 @@
 </head>
 <body>
     <div class="main-nav">
-        <nav>
-            <ul>
-                <div class="logo">
-                    <img src="./images/logo.png" alt="logo image">
-                </div>
-                <div class="list-items">
-                    <li>Home</li>
-                    <li>Shop</li>
-                    <li>Contact</li>
-                    <li>Help</li>
-                </div>
-                <div class="personal-info">
-                    <div class="account-dropdown">
-                            <p>Account</p>
-                            <i class="material-icons">arrow_drop_down</i>
+        <header>
+                <ul>
+                    <div class="logo">
+                        <img src="./images/logo.png" alt="logo image">
                     </div>
-                    <div class="items-3">
-                        <i class="material-icons">shopping_bag</i>
-                        <p>3 items</p>
-                </div>
-                <div class="profile-image">
-                    <img src="./images/profile-img.png" alt="">
-                </div>
-                </div>
-            </ul>
-        </nav>
+                    <div class="list-items">
+                        <li>Home</li>
+                        <li>Shop</li>
+                        <li>Contact</li>
+                        <li>Help</li>
+                    </div>
+                    <div class="personal-info">
+                        <div class="account-dropdown">
+                                <p>Account</p>
+                                <i style="margin-top: 20px; color: rgb(83, 82, 82);" class="material-icons">arrow_drop_down</i>
+                        </div>
+
+                        <div class="items-3">
+                            <i style="margin-top: 20px; color: rgb(83, 82, 82);" class="material-icons">shopping_bag</i>
+                            <p>3 items</p>
+                    </div>
+
+                    <div class="profile-image">
+                        <img src="./images/profile-img.png" alt="">
+                    </div>
+                    </div>
+                </ul>
+        </header>
         <main class="main-content">
             <div class="account-shipping">
                 <div class="top-bar">
@@ -50,82 +52,73 @@
                     <div class="trackLine"></div>
                     <p>Payment</p>
                 </div>
-                <h1>Account details</h1>
+                <h4 style="font-size: 20px;">Account details</h4>
                 <form action="" class="login-form">
                     <label for="email">Email Address</label>
                     <input type="email" name="email" id="email" placeholder="erastusmunya546@gmail.com">
                     <label for="password">Password</label>
                     <input type="password" name="password" id="password" placeholder="****************">
+
                     <div class="register-login">
-                        <h4>Register for Account</h4>
-                        <div class="login-button">
-                            <h4>Login</h4>
-                        </div>
+                        <p>Register for Account</p>
+                        <button type="submit" class="login-button">Login</button>
                     </div>
+                    
                 </form>
+                <hr style="margin-left: 15px; margin-right: 10px; margin-top: 100px;" color="#d7e0e6"  ></hr>
                 <div class="shipping-details">
-                    <h4>Cancel Order</h4>
-                    <div class="shipping-button">
-                        <h4>Shipping Details </h4>
-                    </div>
+                    <P>Cancel Order</P>
+                    <button class="shipping-button">Shipping Details</button>
                 </div>
             </div>
             <div class="order-summary">
-                <h1>Order Summary</h1>
+                <h4 style="font-size: 20px;">Order Summary</h4>
                 <div class="earphone"> 
+                    <img src="./images/headphones2.png" alt="Sony Headphones">
                 </div>
                 <!-- Sony HeadPhones Section -->
                 <div class="sony-headphones">
+
                     <div class="sony-headphones-currency-pounds">
-                        <h5>Sony Wireless Headphones</h5>
-                    <div class="currency-pound">
-                        <i  class="material-icons">currency_pound</i>
-                    <p>320.50</p>
+                        <p>Sony Wireless Headphones</p>
+                    <p style="font-weight: bold;">£320.50</p>
                     </div>
-                    </div>
+
                     <div class="add-and-subtract">
-                        <div class="arithmetic-btn">
-                            <h5>-</h5>
-                        </div>
+                        <button class="arithmetic-btn">-</button>
                         <h2>1</h2>
-                        <div class="arithmetic-btn">
-                            <h5>+</h5>
-                        </div>
+                        <button class="arithmetic-btn">+</button>
                     </div>
                 </div>
-                <h5 style="color: rgb(94, 93, 93);">Gift card/Discount code</h5>
+                <p style="color: rgb(94, 93, 93);">Gift card/Discount code</p>
                 <div class="dicount-container">
-                    <div class="blank-container"></div>
-                    <div class="apply-button">
-                        <h5>Apply</h5>
-                    </div>
+                    <input type="text" name="giftcard" id="giftcard" placeholder="Enter Gift card/Discount code">
+                    <button class="apply-button">Apply</button>
                 </div>
+
                 <!-- Subtotals and totals -->
                  <div class="subtotal">
                     <p>SubTotal</p>
                     <div class="currency-pound">
-                        <i  class="material-icons">currency_pound</i>
-                    <p>320.50</p>
+                    <p>£320.50</p>
                     </div>
                  </div>
                  <div class="subtotal">
                     <p>Tax</p>
                     <div class="currency-pound">
-                        <i  class="material-icons">currency_pound</i>
-                    <p>3.45</p>
+                    <p>£3.45</p>
                     </div>
                  </div>
                  <div class="subtotal">
                     <p>Shipping</p>
                     <div class="currency-pound">
-                    <p>Free</p>
+                    <p style="color: rgb(43, 194, 43); font-weight: bold;">Free</p>
                     </div>
                  </div>
-                 <div class="subtotal">
+                 <div class="subtotal" style="font-weight: bold;">
                     <p>Total</p>
                     <div class="currency-pound">
-                        <i  class="material-icons">currency_pound</i>
-                    <p>320.50</p>
+                    <p >£320.50</p>
                     </div>
                  </div>
             </div>
