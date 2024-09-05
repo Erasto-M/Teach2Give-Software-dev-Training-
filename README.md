@@ -15,10 +15,10 @@
 
 2. Design 2 
 Working on grids . Improved on the Grid design after learning the css grid
-![alt text](image.png)
+![alt text](./assignement4-grids/images/image.png)
 
 Also added some Responsiveness on the design for different screen sizes 
-![alt text](image-1.png)    
+![alt text](./assignement4-grids/images/image-1.png)    
 This is for a screen-Size of around 1200px 
-![alt text](image-2.png)
+![alt text](./assignement4-grids/images/image-2.png)
 This is for screenSizes of around 768px
