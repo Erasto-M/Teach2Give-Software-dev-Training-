@@ -1,51 +1,198 @@
-body{
+body {
     background-color: rgb(245, 242, 240);
+}
 
-}
-.main-content{
+.main-content {
     display: grid;
-    grid-template-columns:   70vw 22vw;
-    height: 90vh;
+    grid-template-columns: 55vw 20vw;
+    height: 75vh;
     column-gap: 25px;
-    border-radius: 5px;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
-.main-content  div{
-    border-radius: 5px;
+
+.main-content div {
+    border-radius: 10px;
 }
-.left-container{
+
+.left-container {
     display: grid;
-    row-gap: 20px;
+    row-gap: 15px;
 }
-.left-container-top{
+
+.left-container-top {
     display: grid;
     grid-template-columns: 65% 34%;
-   
-    column-gap: 20px;
-    
+    column-gap: 15px;
+
 }
-.left-container-bottom{
+
+.left-container-bottom {
     display: grid;
-    grid-template-columns: 34%  65% ;
-    column-gap: 20px;
-    
-   
+    grid-template-columns: 34% 65%;
+    column-gap: 15px;
 }
-.left-container-bottom div , .left-container-top div {
-    border: 1px solid rgb(216, 215, 214);
-    border-radius: 5px;
+
+.left-container-bottom div,
+.left-container-top div {
+    border-radius: 10px;
+
+}
+
+.daniel-cliff {
+    background-color: hsl(263, 55%, 52%);
     color: white;
+    padding: 20px 50px 20px 50px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-position: top calc(40px) right calc(100px);
+    background-size: auto;
 }
-.daniel-cliff{
-    background-color: rgb(135, 4, 211);
+
+.daniel-cliff div {
+    border: none;
 }
-.jonathan{
-    background-color: rgb(1, 56, 94);
+
+.jonathan {
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+    padding: 20px 50px 20px 50px;
+    display: flex;
+    flex-direction: column;
 }
-.harmon{
-    background-color: rgb(247, 248, 248);
+
+.jonathan div {
+    border: none;
 }
-.patrick{
-    background-color: rgb(8, 8, 8);
+
+.harmon {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(219, 29%, 14%);
+    padding: 20px 50px 20px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.harmon div {
+    border: none;
+}
+
+.patrick {
+    background-color: hsl(219, 29%, 14%);
+    color: white;
+    padding: 20px 50px 20px 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.patrick div {
+    border: none;
+}
+
+/* Right container */
+.right-container {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px 50px 20px 50px;
+    display: flex;
+    flex-direction: column;
+    color: hsl(219, 29%, 14%);
+    
+}
+
+
+/* Styliing the top of the grids */
+.profile-image {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.profile-image img {
+    border-radius: 40px;
+    height: 60px;
+    width: 60px;
+    filter: brightness(1.2);
+}
+
+span {
+    font-weight: bold;
+    font-size: 15px;
+}
+.main-cont{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* ResponsiveNess using Mediaquery for devices less than 1200x */
+
+@media (max-width: 1200px){
+    .main-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 5px;
+        margin-right: 5px;
+        height: auto;
+    }
+    .left-container-top, .left-container-bottom{
+        grid-template-columns: 1fr;
+        row-gap: 5px;
+    }
+    .left-container , .right-container{
+        padding: 5px;
+    }
+    .daniel-cliff , .jonathan , .harmon , .patrick ,.right-container{
+        padding: 20px;
+    }
+    .profile-image img{
+        height: 70px;
+        width: 70px;
+    }
+     span{
+        font-size: 20px;
+     }
+     .main-cont{
+        font-size: 17px;
+     }
+     .sub-cont{
+        font-size: 18px;
+     }
+}
+/* for devices less that 768 */
+@media (max-width: 768px){
+    .main-content{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: auto;
+    }
+    .left-container-top, .left-container-bottom{
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .left-container , .right-container{
+        padding: 15px;
+    }
+    .daniel-cliff , .jonathan , .harmon , .patrick ,.right-container{
+        padding: 20px;
+    }
+    .profile-image img{
+        height: 50px;
+        width: 50px;
+    }
+     span{
+        font-size: 14px;
+     }
+     .main-cont{
+        font-size: 14px;
+     }
+     .sub-cont{
+        font-size: 16px;
+     }
 }
